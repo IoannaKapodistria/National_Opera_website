@@ -1,0 +1,565 @@
+html {
+  margin: 4px;
+  padding: 4px;
+}
+
+body {
+  font-family: "Comfortaa";
+  src: url("\\Comfortaa-Regular");
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0px 5px 3px 0px gray;
+}
+
+.card {
+  min-width: 150px;
+}
+
+.header {
+  width: 100%;
+  height: 61px;
+  display: block;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.inner-header {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-image {
+  float: left;
+  display: block;
+  max-width: 100%;
+  height: 61px;
+  border-style: none;
+}
+
+.logo-image:hover {
+  cursor: pointer;
+}
+
+.navigation {
+  height: 100%;
+  list-style: none;
+}
+
+.navigation a {
+  height: 100%;
+  float: left;
+  padding: 22px 40px;
+}
+
+.navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navigation a li {
+  height: 100%;
+  font-size: 16px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.navigation a li:hover {
+  color: orange;
+}
+.content {
+  text-align: justify;
+  line-height: 1.7;
+  margin-left: 15px;
+  margin-right: 150px;
+}
+
+.content p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.info div.title {
+  background-color: white;
+  font-size: 33px;
+  font-weight: 300;
+  margin: 10px 10px 0px 4px;
+  padding: 10px 10px 10px 5px;
+}
+
+.venue {
+  color: gray;
+  background-color: white;
+  font-size: 27px;
+  font-weight: 400;
+  margin: 0px 10px 0px 4px;
+  padding: 5px 10px 3px 5px;
+}
+
+.media div.title {
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  padding-bottom: 0.05em;
+  padding-left: 0.2em;
+  opacity: 0.7;
+  /* z-index: -1;*/
+}
+
+.media {
+  background-image: url(img2/1821.jpg);
+  padding-top: 100px;
+}
+
+.photo-image {
+  float: left;
+  width: 30%;
+  padding: 0px 10px 0px 0px;
+}
+
+.photo-image2 {
+  float: right;
+  width: 30%;
+  padding: 0px 0px 5px 18px;
+}
+
+.overview .role-name {
+  color: black;
+  font-weight: 550;
+  background-color: white;
+  font-size: 20px;
+  margin: 16px 10px 10px 4px;
+  padding: 16px 10px 10px 5px;
+}
+
+.overview {
+  padding-top: 16px;
+}
+.role-name span.role {
+  color: gray;
+  border-left: 5px solid darkorange;
+  margin: 5px;
+  padding: 5px;
+}
+
+hr {
+  border: 1px solid gray;
+  margin: 0;
+}
+footer {
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(231, 229, 229, 0.938);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footerelements {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.footerelements:first-child {
+  padding-left: 15px;
+}
+
+.footerelements > p {
+  font-size: small;
+  margin: 7px;
+}
+.navigation a:link {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a[href="#sxetika1"]:link {
+  color: #757575;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a[href="#policy2"]:link {
+  color: black;
+  text-decoration: none;
+  border-bottom: none;
+}
+a[href="#policy"]:link {
+  color: #757575;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a[href="#communication1"]:link {
+  color: #757575;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+#operalink {
+  color: orange;
+}
+
+/* Play.html */
+
+.synopsis {
+  background-color: white;
+  font-size: medium;
+  margin: 10px 30px 15px 10px;
+  padding: 10px 30px 15px 10px;
+  text-align: justify;
+}
+
+.media2 {
+  padding-top: 100px;
+}
+
+.media2 div.title {
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  padding-bottom: 0.05em;
+  padding-left: 0.2em;
+  opacity: 0.7;
+}
+
+.important {
+  font-size: 18px;
+  font-style: italic;
+  margin: 15px 10px 5px 4px;
+  padding: 27px 10px 5px 5px;
+}
+
+#a {
+  font-style: italic;
+  margin: 5px 5px 5px 4px;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+#a {
+  display: block;
+  position: relative;
+}
+#a:hover + #b {
+  display: block;
+  margin-left: 9em;
+  margin-top: -1.8em;
+}
+
+#b {
+  display: none;
+  position: absolute;
+}
+.details-menu {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 6px;
+  padding-left: 6px;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.details-menu:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+a[href="#roles"]:link {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a[href="#roles"]:link::before {
+  content: " \2022";
+  margin-left: -8px;
+  margin-right: 6px;
+}
+
+a:link {
+  border-bottom: 5px solid darkorange;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+a:hover {
+  color: darkorange;
+  border-bottom-color: darkorange;
+}
+
+#roles {
+  font-size: 17px;
+  margin: 10px 10px 20px 10px;
+  padding: 10px 10px 20px 10px;
+}
+
+.roles .role-name {
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.dates {
+  display: inline-block;
+
+  margin: 20px 10px 10px 10px;
+  font-style: italic;
+}
+
+.imerominies {
+  width: 500;
+  height: 40px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.name {
+  margin-bottom: 30px;
+}
+
+.card > p {
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+/* Reservations*/
+
+form {
+  background-color: #fdfcf1;
+}
+
+form > h1 {
+  margin-top: 10px;
+}
+.secondary .role-name {
+  margin-top: 20px;
+}
+.protagonists {
+  margin: 20px 20px 20px 20px;
+  padding-top: 25px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.dongiovanni_roles {
+  margin: 20px 20px 20px 20px;
+  padding-top: 5px;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.dongiovanni_roles:last-child {
+  padding-bottom: 20px;
+}
+.mainactors {
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.theseis {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.katigoria {
+  grid-column: 1/4;
+}
+
+.seatingmap {
+  grid-column: 1/3;
+  /*grid-row: 1/5;*/
+}
+
+.colrows {
+  grid-column: 1/4;
+}
+
+input .adress {
+  width: 1000px;
+}
+
+#upovoli {
+  background-color: orange;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  padding: 9px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+#upovoli:hover {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  transition: cubic-bezier(background-color);
+  transition-duration: 0.25s;
+}
+
+/* DON KIXOTIS*/
+
+a[href="http://virtualmuseum.nationalopera.gr/"]:link
+{
+  border-bottom: none;
+  text-decoration: none;
+  color: rgb(6, 131, 204);
+}
+
+a[href="http://virtualmuseum.nationalopera.gr/"]:hover
+{
+  border-bottom: none;
+  text-decoration: none;
+  color: darkorange;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0;
+  padding: 0 40px;
+  /*max-width: 980px;*/
+  padding-bottom: 30px;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+  margin: 0 16px 7px 0;
+  min-width: 200px;
+}
+
+article > p {
+  grid-column: 1/3;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+aside {
+  grid-column: 2/3;
+  margin: 14px 20px 20px 20px;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  gap: 0.5em;
+  width: auto;
+}
+.photos li {
+  flex-basis: 48%;
+  flex-grow: 1;
+  list-style: none;
+}
+.photos img {
+  width: 100%;
+  height: 100%;
+}
+
+/* PROGRAMM  &  CALENDAR */
+
+.backphoto {
+  width: 50%;
+}
+
+.main-frame {
+  padding-bottom: 35px;
+}
+
+.cal {
+  text-align: left;
+  border-bottom-style: solid;
+  font-size: 35px;
+  border-bottom-width: 2px;
+  text-indent: 15px;
+  color: darkorange;
+  margin-bottom: 20px;
+}
+
+.event {
+  color: black;
+  position: relative;
+  border-style: hidden;
+  border-bottom-width: 1px;
+  margin-top: 8px;
+  text-indent: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
+  transition-duration: 0.4s;
+}
+
+.event:nth-child(odd) {
+  color: darkorange;
+}
+
+.event:hover {
+  top: -1px;
+  border-style: solid;
+  border-color: rgba(59, 60, 61, 0.205);
+  background-color: #a7bbf133;
+  cursor: pointer;
+}
+
+.media3 {
+  background-image: url(img2/cover6.jpg);
+  padding-top: 100px;
+}
+
+.title3 {
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  padding-bottom: 0.05em;
+  padding-left: 0.2em;
+  opacity: 0.6;
+}
+
+.giovanni,
+.madam,
+.figaro,
+.role-name {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.production {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 17px;
+  padding-left: 10px;
+}
+
+.first {
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.first:hover {
+  color: darkorange;
+}
+
+.giovanni,
+.madam,
+.figaro {
+  margin-top: 30px;
+}
