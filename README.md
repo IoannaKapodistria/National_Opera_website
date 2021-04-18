@@ -2,7 +2,7 @@
 
 ## Project Λυρικής Σκηνής
 
-Ένα site για την Εθνική Λυρική Σκηνή με τεχνολογίες: HTML5, CSS3, Javascript.
+#### Ένα site για την Εθνική Λυρική Σκηνή με τεχνολογίες: HTML5, CSS3, Javascript.
 
 Το πρότζεκτ αποτελείται από 5 αρχεία html (index1.html, programm.html, play.html, resrvation.html, donkixotis.html), 4 αρχεία javascript, 1 json, 1 css και 2 φακέλους με τις φωτογραφίες που χρησιμοποιήθηκαν.
 
