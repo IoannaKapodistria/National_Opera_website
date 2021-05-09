@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <title>Κρατήσεις - Εθνική Λυρική Σκηνή</title>
+    <link rel="stylesheet" href="stylenew.css">
+    <script src="reservation.js" defer></script>
+</head>
+
+<body class="reservation">
+  <!-- NAVIGATION BAR-->
+
+   <nav class="navbar sticky-top navbar-expand-md navbar-light">
+    <div class="container-fluid sticky-top ps-0">
+      <a class="navbar-brand" href="indexnew.html"><img src="newimg/logo.png"/></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <div class="container">
+              <div class="row">
+                  <div class="col mb-0 h4 text-white">
+                      Εθνική Λυρική Σκηνή
+                  </div>
+              </div>
+          </div>  
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="programnew.html">Πρόγραμμα</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Παραστάσεις
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="playnew.html?Don Giovanni">Ντον Τζιοβάννι</a></li>
+              <li>
+                <a class="dropdown-item" href="playnew.html?Madame Butterfly">Μαντάμα Μπατερφλάι</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="playnew.html?The Marriage of Figaro">Οι Γάμοι του Φίγκαρο</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Δον Κιχώτης</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Αντρέα Σενιέ</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservationnew.html">Κρατήσεις</a>
+          </li>
+        </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--Form-->
+
+<form action="" method="GET">
+    <h4><strong>Αίτηση Κράτησης Θέσης</strong></h4>
+    <fieldset>
+      <legend>Προσωπικά στοιχεία</legend>
+      <p><i>Συμπληρώστε τα στοιχεία σας με λατινικούς χαρακτήρες</i></p>
+      <div>
+        <label for="name">
+          Ονοματεπώνυμο <br />
+          <input type="text"  pattern ="^[A-Za-z]{3,}$" id="name" name="name" placeholder="Όνομα"  required/>
+        </label>
+
+        <input type="text"  pattern ="^[A-Za-z]{3,}$" id="name" name="surename"  size="31"placeholder="Επώνυμο" required/>
+      </div>
+      <br />
+     
+      <div>
+        <label for="adress"
+          >Στοιχεία διεύθυνσης <br />
+          <input
+            type="text"
+            size="54"
+            id="adress"
+            name="adress"
+            placeholder="Οδός και αριθμός"
+          />
+        </label>
+      </div>
+      
+      <br />
+      <div>
+        <label for="phonenumber"
+          >Στοιχεία επικοινωνίας <br />
+          +&nbsp;<input
+            type="tel"
+            pattern ="^[0-9]{2}$"
+            id="codenumber"
+            name="codenumber" size="1"/>
+          <input
+            type="tel"
+            pattern ="^[0-9]{10}$"
+            id="phonenumber"
+            name="phonenumber"
+            placeholder="Τηλέφωνο"
+            required
+          />
+        </label>
+
+        <input
+          type="email"
+          id="email"
+          size="25"
+          name="email"
+          placeholder="Διεύθυνση email"
+          required
+        />
+      </div>
+      <br />
+      <br />
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Επιλέξτε παράσταση και θέση</legend>
+
+      <div>
+        <label
+          >Παράσταση
+          <br />
+          <select name="parastasi" id="parastasi" required>
+            <option value="Don Giovanni">ΝΤΟΝ ΤΖΙΟΒΑΝΝΙ</option>
+            <option value="Madame Butterfly">ΜΑΝΤΑΜΑ ΜΠΑΤΤΕΡΦΛΑΙ</option>
+            <option value="The Marriage of Figaro">ΟΙ ΓΑΜΟΙ ΤΟΥ ΦΙΓΚΑΡΟ</option>
+          </select>
+        </label>
+        <br/>
+        <br/>
+
+        <label for="date1"
+          >Ημερομηνία <br />
+          <select name="date1" id="date1"></select>
+          
+       
+        <br />
+        <br />
+        <div class="theseis">
+          <div class="katigoria">
+        <label  onclick="document.getElementById('myImage').src='img2/Frame77.png'">Κατηγορία θέσης</label>
+        <br />
+        
+        <label for="plateia">Πλατεία</label>
+        <input type="radio" name="thesi" id="plateia" onclick="document.getElementById('myImage').src='img2/Frame66.png'"  value="plateia"required/> 
+        &nbsp;
+        <label for="exostis">Εξώστης</label>
+        <input type="radio" name="thesi" id="exostis" onclick="document.getElementById('myImage').src='img2/Frame88.png'" value="exostis" required/>
+        </div>
+        <br />
+        <br />
+        
+        <div class="colrows">
+          <label for="rows">Σειρά</label>
+          <select name='row' id="row" >
+          </select> &nbsp;&nbsp;
+
+          <label for="columns">Στήλη</label>
+          <select name='column' id="column">
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+          </select>
+        </div>
+        <br/>
+        <br/>
+        <div class="seatingmap">
+        <img id="myImage" src="img2/Frame77.png" style="width:1000px">
+        </div>
+       
+    </fieldset>
+
+    <fieldset>
+      <legend>Κατηγορία εισιτηρίου και παραλαβή</legend>
+      <div>
+          <label>Κατηγορία εισιτηρίου</label>
+        <br />
+        <select name="ticket">
+          <option value="normal">Κανονικό</option>
+          <option value="student">Φοιτητικό</option>
+        </select>
+        <br/>
+        <br/>
+        <label>Παραλαβή εισητηρίου</label> <br/>
+        <input
+          type="radio"
+          id="vivliopwleio"
+          name="eisithrio"
+          value="vivliopwleio"
+          required
+        />
+        <label for="vivliopwleio">Παραλαβή από βιβλιοπωλείο</label>
+        <br />
+
+        <input type="radio" id="oikia" name="eisithrio" value="oikia"  required/>
+        <label for="oikia">Αποστολή στην διεύθυνση οικίας</label>
+      </div>
+      
+    </fieldset>
+
+    <br />
+
+    <input type="submit" id="upovoli" value="Υποβολή" />
+  </form>
+
+
+  <hr/>
+  <br/>
+  <footer class=" text-white pt-2 pb-2">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-4">
+          <h5 class="text-uppercase mb-4 ">Σχετικά</h5>
+         <!-- <p>ncjdjcscbdsjbcshjbc</p> -->
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-4">
+          <h5 class="text-uppercase mb-4 ">Προστασία Προσωπικών Δεδομένων</h5>
+         
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-4">
+          <h5 class="text-uppercase mb-4  ">Επικοινωνία</h5>
+        
+
+      </div>
+       
+        
+    </div>
+
+  </footer>
+  <!--<br/>
+  <br/>-->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
