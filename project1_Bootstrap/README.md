@@ -1,6 +1,6 @@
-##Project για την Εθνική Λυρική Σκηνή_Bootstrap
+## Project Εθνική Λυρική Σκηνή_Bootstrap
 
-###Ένα site για την Εθνική Λυρική Σκηνή με τεχνολογίες: HTML5, CSS3, Javascript & Bootstrap.
+### Ένα site για την Εθνική Λυρική Σκηνή με τεχνολογίες: HTML5, CSS3, Javascript & Bootstrap.
 
 Το πρότζεκτ αποτελείται από 4 αρχεία html (indexnew.html, programmnew.html, playnew.html, resrvationnew.html), 4 αρχεία javascript, 1 json, 1 css και 2 φακέλους με τις φωτογραφίες που χρησιμοποιήθηκαν.
 
