@@ -2,7 +2,7 @@
 ### Ένα site για την Εθνική Λυρική Σκηνή με τεχνολογίες: HTML5, CSS3, Javascript & Bootstrap & Canvas.
 
 Το συγκεκριμένο πρότζεκτ είναι στο μεγαλύτερο μέρος του ίδιο με το πρότζεκτ Εθνική Λυρική Σκηνή_Bootstrap. 
-Δηλαδή αποτελείται από  από 4 αρχεία html (indexnew.html, programmnew.html, playnew.html, resrvationnew.html),
+Δηλαδή αποτελείται από 4 αρχεία html (indexnew.html, programmnew.html, playnew.html, resrvationnew.html),
 4 αρχεία javascript, 1 json, 1 css 2 φακέλους με τις φωτογραφίες που χρησιμοποιήθηκαν συν ένα ακόμη αρχείο canvasgrid.html.
 
 Η μόνη διαφορά είναι ότι η σελίδα reservationnew.html που αφορά την αίτηση κράτησης θέσης, χωρίστηκε σε δύο μέρη. 
