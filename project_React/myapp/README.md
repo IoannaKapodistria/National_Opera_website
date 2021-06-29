@@ -9,7 +9,7 @@
 
 * /public: περιέχει τις φωτογραφίες που χρησιμοποιήθηκαν και το βασικό αρχείο html.
 
-now 
+
 
 ## Getting Started with Create React App 
 
