@@ -1,0 +1,494 @@
+.App {
+  text-align: center;
+  font-family: Comfortaa;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.imerominies {
+  font-style: italic;
+}
+
+.nav_bar {
+  background-color: black !important;
+  padding: 0px;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100;
+}
+.title1 {
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(85, 172, 253) !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.ethinki {
+  margin-left: 20px !important;
+  font-size: 23px !important;
+}
+
+/* CSS APO PRIN */
+
+body {
+  /*background-color: black;*/
+  font-family: Comfortaa;
+  /*margin: 5px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        box-shadow: 0px 5px 3px 0px gray;*/
+}
+
+.navbar-toggler {
+  background-color: white !important;
+  float: right !important;
+}
+
+ol.carousel-indicators li [data-bs-target] {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+}
+.headline.d-inline-block {
+  letter-spacing: 4px;
+  color: #6d6e71;
+}
+footer h5 {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+footer {
+  background-color: rgb(85, 172, 253); /* #a6defa;*/
+  font-size: 13px;
+}
+.icon-box:hover {
+  cursor: pointer;
+  transition: 0.5s ease;
+  opacity: 0.3;
+
+  transform: scale(1.09);
+}
+
+a[href] {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+
+.btn.btn-primary {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 0%;
+}
+
+.btn.btn-primary:hover {
+  cursor: pointer;
+  border: 1px solid rgb(41, 131, 233);
+  background-color: rgb(41, 131, 233);
+  transition: 0.5s;
+  /*font-weight: bold;*/
+}
+.container-fluid.carousel1 {
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  margin-bottom: 5px;
+}
+.carousel-indicators [data-bs-target] {
+  margin-right: 12px;
+}
+
+.show {
+  letter-spacing: 4px;
+}
+.description {
+  font-size: 15px;
+}
+hr {
+  color: black;
+}
+
+.dropdown-menu.show {
+  background-color: white;
+}
+.drop_item.dropdown-item:hover {
+  /*color: rgb(70, 162, 248);*/
+  background-color: rgb(201, 234, 250);
+  /*background-color: white;*/
+}
+
+.img-responsive {
+  width: 80%;
+}
+
+/* PROGRAMM */
+.centered {
+  color: white;
+  font-size: 37px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* PLAY */
+.col-6.px-0 img {
+  padding-top: 46px;
+}
+
+.photo {
+  margin-top: 60px;
+  width: 100%;
+  height: 550px;
+}
+.hrclass {
+  margin-top: 370px;
+}
+
+.show_roles {
+  margin-top: 9px !important;
+  margin-left: 48px !important;
+  font-weight: bold !important;
+}
+
+.mainactors {
+  /*margin-top: 5px;*/
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.role-name {
+  margin: 10px;
+  padding: 5px;
+  margin-left: 8;
+  padding-left: 0;
+}
+
+.role-name2 {
+  margin: 10px 10px 10px 0px;
+  padding: 5px 5px 5px 0px;
+}
+
+.role-name span.role {
+  color: gray;
+  border-left: 5px solid rgb(85, 172, 253);
+}
+
+.role-name2 span.role {
+  margin-left: 5px;
+  color: gray;
+  border-left: 5px solid rgb(85, 172, 253);
+}
+
+.btn.btn-primary.play {
+  color: white;
+  background-color: rgb(41, 131, 233);
+  border: 1px solid white;
+  border-radius: 0%;
+  margin-top: 250px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.btn.btn-primary.play:hover {
+  cursor: pointer;
+  border: 1px solid black; /* rgb(57, 142, 240);*/
+  background-color: black; /* rgb(57, 142, 240);*/
+  transition: 0.5s;
+  /*font-weight: bold;*/
+}
+
+.btn.btn-primary.more {
+  color: rgb(41, 131, 233);
+  background-color: white;
+  border: 1px solid rgb(41, 131, 233);
+  border-radius: 0%;
+  margin-top: 250px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.btn.btn-primary.more:hover {
+  cursor: pointer;
+  color: white;
+  border: 1px solid black; /* rgb(57, 142, 240);*/
+  background-color: black; /*rgb(57, 142, 240);*/
+  transition: 0.5s;
+  /*font-weight: bold;*/
+}
+
+a[href="http://virtualmuseum.nationalopera.gr/"]
+{
+  color: rgb(57, 142, 240);
+}
+
+a[href="http://virtualmuseum.nationalopera.gr/"]:hover
+{
+  color: orange;
+}
+
+/* PROGRAM */
+
+.card {
+  margin: 20px 10px;
+  box-shadow: 0px 4px 8px -8px rgb(0, 0, 0, 0.4);
+}
+
+a.card-link {
+  color: #0d6efd;
+}
+
+a.card-link:hover {
+  /*border-bottom: 1px solid #0d6efd;*/
+  color: orange;
+}
+
+.card-body {
+  text-align: left !important;
+}
+
+.cal {
+  text-align: left;
+  /*border-bottom: 2px solid rgb(64, 174, 238);*/
+  font-size: 35px;
+  border-bottom-width: 2px;
+  text-indent: 15px;
+  color: rgb(85, 172, 253); /* rgb(64, 174, 238); */
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 50px;
+  border-bottom: 1px solid rgb(64, 174, 238) !important;
+}
+
+.eventt {
+  display: flex;
+  margin: 12px 0;
+}
+
+.event1 {
+  padding-left: 20px;
+
+  /*box-shadow: 0px 4px 16px -8px rgb(0, 0, 0, 0.4);
+
+  /*border-radius: 4px 0px 0px 4px;*/
+  margin: 12px 0 0 0;
+
+  min-width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: rgb(64, 174, 238);*/
+  padding: 10px 28px 22px 28px;
+  text-align: center;
+  margin-left: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(64, 174, 238); /* aliceblue;*/
+  font-weight: bold;
+  border-bottom: 1px solid rgb(64, 174, 238);
+}
+/*.event1:first-child {
+  padding-top: 62px;
+  margin-top: 0px;
+}*/
+
+.event2 {
+  display: flex;
+  flex-direction: column;
+  /*padding: 0 24px;*/
+
+  margin-bottom: 0px;
+  /*box-shadow: 0px 4px 16px -8px rgb(0, 0, 0, 0.4);
+pa
+  /*border-radius: 0px 4px 4px 0px;*/
+  margin: 12px 0 0 0;
+  min-width: 710px;
+  padding: 10px 48px 22px 48px;
+  /*background-color: #ffffff;*/
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgb(64, 174, 238);
+}
+
+.event2:first-child {
+  padding-top: 62px;
+  margin-top: 0px;
+  border-top: 1px solid rgb(64, 174, 238);
+}
+
+.button2 {
+  color: white;
+  background-color: rgb(64, 174, 238);
+  border: 1px solid white;
+  border-radius: 0%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 124px;
+  margin-top: 62px;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-weight: bold;
+  position: relative;
+
+  /*border-bottom: 1px solid rgb(64, 174, 238);*/
+}
+
+.button2:hover {
+  cursor: pointer;
+  border: 1px solid black; /* rgb(57, 142, 240);*/
+  background-color: black; /* rgb(57, 142, 240);*/
+  transition: 0.5s;
+  text-decoration: none !important;
+  /*font-weight: bold;*/
+}
+
+/* RESERVATION*/
+
+.reservation {
+  background-color: #fdfcf1;
+  font-size: 15px;
+}
+form {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.my-fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+
+  border-image: initial;
+}
+
+.my-legend {
+  float: none;
+  font-size: 18px;
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#upovoli {
+  background-color: orange;
+  border: none;
+  color: white;
+  margin-left: 2px;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+#upovoli:hover {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  transition: cubic-bezier(background-color);
+  transition-duration: 0.45s;
+}
+
+.title.h4.mt-5.mx-5 {
+  font-weight: 600;
+}
+
+.h5.mt-4.mx-5.sunop,
+.h5.mt-5.mx-2.sintel,
+.h5.mt-4.mx-5.mb-4.prot {
+  font-weight: 600;
+}
+
+Form {
+  text-align: left;
+  width: 70%;
+  background-color: #fdfcf1;
+}
+
+.kratisi {
+  padding-top: 20px;
+}
+.reservation_page {
+  background-color: #fdfcf1;
+  height: 600px;
+}
+
+.unselected_seat_button {
+  background-color: white;
+  border: 1px solid rgb(176, 197, 204) /*rgb(164, 194, 204)*/;
+  box-shadow: 1px 1px lightgray;
+  width: 19px;
+  height: 12px;
+  margin-right: 4px;
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+.selected_seat_button {
+  background-color: rgb(158, 214, 233); /* tomato*/
+  width: 19px;
+  height: 12px;
+  margin-right: 4px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  /*box-shadow: 1px 1px lightgray;*/
+}
+.seat_form {
+  width: 77% !important;
+}
+.seat_page {
+  background-color: #fdfcf1;
+}
+
+a.card-link {
+  cursor: pointer;
+}
+.theseis {
+  font-weight: 600;
+}
